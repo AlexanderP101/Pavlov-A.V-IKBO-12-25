@@ -1,5 +1,3 @@
-"""Графический эмулятор оболочки ОС, вариант 18, этапы 1–3."""
-
 import argparse
 import datetime as dt
 import io
