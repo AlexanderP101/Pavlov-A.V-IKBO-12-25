@@ -1,0 +1,6 @@
+# Демонстрация этапов 1–3
+ls
+ls "папка с пробелом"
+cd /docs
+vfs-info
+vfs-save saved-vfs.zip

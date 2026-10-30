@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<events>
+  <event timestamp="2026-10-24T02:44:18+03:00">
+    <command>ls</command>
+    <arguments />
+    <success>true</success>
+    <message>ls: аргументы: (нет)</message>
+  </event>
+  <event timestamp="2026-10-24T02:44:41+03:00">
+    <command>ls[Александр]</command>
+    <arguments />
+    <success>false</success>
+    <message>Ошибка: неизвестная команда: ls[Александр]</message>
+  </event>
+  <event timestamp="2026-10-24T02:44:50+03:00">
+    <command>$ls</command>
+    <arguments />
+    <success>false</success>
+    <message>Ошибка: неизвестная команда: $ls</message>
+  </event>
+  <event timestamp="2026-10-24T02:45:38+03:00">
+    <command>$ls</command>
+    <arguments>
+      <argument>folder</argument>
+    </arguments>
+    <success>false</success>
+    <message>Ошибка: неизвестная команда: $ls</message>
+  </event>
+  <event timestamp="2026-10-24T02:46:30+03:00">
+    <command>ls</command>
+    <arguments>
+      <argument>[folder]</argument>
+    </arguments>
+    <success>true</success>
+    <message>ls: аргументы: [folder]</message>
+  </event>
+  <event timestamp="2026-10-24T02:46:40+03:00">
+    <command>ls</command>
+    <arguments />
+    <success>true</success>
+    <message>ls: аргументы: (нет)</message>
+  </event>
+  <event timestamp="2026-10-24T02:48:49+03:00">
+    <command>vfs-info</command>
+    <arguments />
+    <success>true</success>
+    <message>default-vfs.zip: архив пуст</message>
+  </event>
+  <event timestamp="2026-10-24T02:53:59+03:00">
+    <command>ls</command>
+    <arguments />
+    <success>true</success>
+    <message>ls: аргументы: (нет)</message>
+  </event>
+  <event timestamp="2026-10-24T02:55:01+03:00">
+    <command>cd</command>
+    <arguments>
+      <argument>documents</argument>
+    </arguments>
+    <success>true</success>
+    <message>cd: аргументы: documents</message>
+  </event>
+  <event timestamp="2026-10-30T11:02:13+03:00">
+    <command>$ls</command>
+    <arguments />
+    <success>false</success>
+    <message>Ошибка: неизвестная команда: $ls</message>
+  </event>
+  <event timestamp="2026-10-30T11:02:33+03:00">
+    <command>ls</command>
+    <arguments />
+    <success>true</success>
+    <message>ls: аргументы: (нет)</message>
+  </event>
+  <event timestamp="2026-10-30T11:02:38+03:00">
+    <command>ls</command>
+    <arguments>
+      <argument>n</argument>
+    </arguments>
+    <success>true</success>
+    <message>ls: аргументы: n</message>
+  </event>
+  <event timestamp="2026-10-30T11:02:44+03:00">
+    <command>ls</command>
+    <arguments />
+    <success>true</success>
+    <message>ls: аргументы: (нет)</message>
+  </event>
+  <event timestamp="2026-10-30T11:13:03+03:00">
+    <command>cd</command>
+    <arguments>
+      <argument>vps</argument>
+      <argument>info</argument>
+    </arguments>
+    <success>true</success>
+    <message>cd: аргументы: vps info</message>
+  </event>
+  <event timestamp="2026-10-30T11:13:55+03:00">
+    <command>cd</command>
+    <arguments>
+      <argument>vfs-info</argument>
+    </arguments>
+    <success>true</success>
+    <message>cd: аргументы: vfs-info</message>
+  </event>
+</events>
